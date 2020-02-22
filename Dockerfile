@@ -1,5 +1,5 @@
 FROM jgoerzen/debian-base-security:buster
-MAINTAINER John Goerzen <jgoerzen@complete.org>
+MAINTAINER Peter Bartkowski. <pbartko@verizon.net>
 COPY setup/ /tmp/setup/
 ENV WEEWX_VERSION 3.9.1
 # The font file is used for the generated images
